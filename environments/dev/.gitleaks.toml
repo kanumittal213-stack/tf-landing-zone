@@ -1,0 +1,10 @@
+title = "My Company Secret Rules"
+
+[[rules]]
+id = "generic-secret"
+
+description = "Detect hardcoded secrets"
+
+regex = '''(?i)(password|passwd|pwd|secret|token|apikey|api_key|client_secret|admin_pswd)\s*=\s*["']([^"']{4,})["']'''
+
+tags = ["secret"]

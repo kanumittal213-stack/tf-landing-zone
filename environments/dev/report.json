@@ -1,0 +1,48 @@
+[
+ {
+  "RuleID": "generic-secret",
+  "Description": "Detect hardcoded secrets",
+  "StartLine": 73,
+  "EndLine": 73,
+  "StartColumn": 6,
+  "EndColumn": 60,
+  "Match": "admin_pswd     = \"ghp_abcdefghijklmnopqrstuvwxyz123456\"",
+  "Secret": "admin_pswd",
+  "File": "environments/dev/terraform.tfvars",
+  "SymlinkFile": "",
+  "Commit": "b528274dd198fd40884c21d5e9da6ae0e40dda77",
+  "Link": "https://github.com/kanumittal213-stack/tf-landing-zone/blob/b528274dd198fd40884c21d5e9da6ae0e40dda77/environments/dev/terraform.tfvars#L73",
+  "Entropy": 3.121928,
+  "Author": "abhishek",
+  "Email": "abhishek@sacredkart.com",
+  "Date": "2026-07-28T21:05:34Z",
+  "Message": "remove *.tfvars from gitignore",
+  "Tags": [
+   "secret"
+  ],
+  "Fingerprint": "b528274dd198fd40884c21d5e9da6ae0e40dda77:environments/dev/terraform.tfvars:generic-secret:73"
+ },
+ {
+  "RuleID": "generic-secret",
+  "Description": "Detect hardcoded secrets",
+  "StartLine": 83,
+  "EndLine": 83,
+  "StartColumn": 6,
+  "EndColumn": 60,
+  "Match": "admin_pswd     = \"ghp_abcdefghijklmnopqrstuvwxyz123456\"",
+  "Secret": "admin_pswd",
+  "File": "environments/dev/terraform.tfvars",
+  "SymlinkFile": "",
+  "Commit": "b528274dd198fd40884c21d5e9da6ae0e40dda77",
+  "Link": "https://github.com/kanumittal213-stack/tf-landing-zone/blob/b528274dd198fd40884c21d5e9da6ae0e40dda77/environments/dev/terraform.tfvars#L83",
+  "Entropy": 3.121928,
+  "Author": "abhishek",
+  "Email": "abhishek@sacredkart.com",
+  "Date": "2026-07-28T21:05:34Z",
+  "Message": "remove *.tfvars from gitignore",
+  "Tags": [
+   "secret"
+  ],
+  "Fingerprint": "b528274dd198fd40884c21d5e9da6ae0e40dda77:environments/dev/terraform.tfvars:generic-secret:83"
+ }
+]
